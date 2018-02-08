@@ -32223,7 +32223,7 @@ var WidgetAnnotation = function (_Annotation) {
       data.fieldFlags = 0;
     }
     data.readOnly = _this2.hasFieldFlag(_util.AnnotationFieldFlag.READONLY);
-    if (data.fieldType === 'Sig') {
+    if (data.fieldType === 'Sig' && false) {
       _this2.setFlags(_util.AnnotationFlag.HIDDEN);
     }
     return _this2;
